@@ -177,7 +177,7 @@ section {
 .home {
     min-height: 0vh;
     padding-top: 12rem;
-    background: url("https://wallpaperaccess.com/full/373999.jpg") no-repeat;
+    background: url("https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/txfhp9otdq4nfcc9vecp") no-repeat;
     background-position: center;
     background-size: cover;
     filter: brightness(1);
@@ -379,7 +379,7 @@ section {
 /* MENU */
 
 .menu {
-    background: url(../image/fondo2.jpg) no-repeat;
+    background: url("https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/euopzy5tisdpvlin93wl") no-repeat;
     background-position: center;
     background-size: cover;
    
@@ -533,7 +533,7 @@ section {
 
 /* BOOK */
 .book {
-    background: url(../image/fondo2.jpg);
+    background: url("https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/euopzy5tisdpvlin93wl");
     background-position: center;
     background-size: cover;
     padding: 3rem 0; /* Agregamos un espacio arriba y abajo */
@@ -642,7 +642,7 @@ section {
 
 /*LOGIN*/
 .book1 {
-    background: url(../image/fondo2.jpg);
+    background: url("https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/euopzy5tisdpvlin93wl");
     background-position: center;
     background-size: cover;
     padding: 15rem 0; /* Agregamos un espacio arriba y abajo */
@@ -711,7 +711,7 @@ section {
 
   /* CAFETERIAS */
   .productos {
-    background: url(../image/fondo2.jpg);
+    background: url("https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/euopzy5tisdpvlin93wl");
     padding: 8%;
     background-size: cover;
     display: flex;

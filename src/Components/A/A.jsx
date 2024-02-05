@@ -13,10 +13,10 @@ const A = () => {
         <div className="productos">
           <div className='imgcafes'>
             <ul>
-                <li><img src='/public/GardenCafé&Chocolate/gardenychocolate1.jpg' alt="" /></li> 
-                <li><img src='/public/GardenCafé&Chocolate/gardenychocolate3.jpg' alt="" /></li>
-                <li><img src='/public/GardenCafé&Chocolate/gardenychocolate4.jpg' alt="" /></li>
-                <li><img src='/public/GardenCafé&Chocolate/gardenychocolate5.jpg' alt="" /></li>
+                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/GardenCaf%C3%A9Chocolate/vbfcxnjd3ulcufmjmwhq' alt="" /></li> 
+                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/GardenCaf%C3%A9Chocolate/lilyd2gf9rmfo6u38gon' alt="" /></li>
+                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/GardenCaf%C3%A9Chocolate/ux1sccecediksb21n330' alt="" /></li>
+                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/GardenCaf%C3%A9Chocolate/riesbuz1xsrgplf8pbdc' alt="" /></li>
             </ul>     
           </div>
 

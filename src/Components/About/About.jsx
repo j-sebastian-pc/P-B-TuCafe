@@ -16,14 +16,14 @@ const About = () => {
           </div>
 
           <div className="image">
-            <img src="image/home-img-1.png" className="main-home-image" alt="" />
+            <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/tn273iuby9xxzjvar07k" className="main-home-image" alt="" />
           </div>
         </div>
 
         <div className="image-slider">
-          <img src="image/home-img-1.png" alt="" />
-          <img src="image/home-img-2.png" alt="" />
-          <img src="image/home-img-3.png" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/tn273iuby9xxzjvar07k" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/rdvteijamuubi7movsux" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/prrh7u9m6wczw928mmwo" alt="" />
         </div>
       </section>
 
@@ -41,7 +41,7 @@ const About = () => {
               <h3>Garden Café & Chocolate</h3>
               <br />
               <div className="image-gallery">
-                <img src="image/garden1.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/ozzvvfs6w6phedj0mhmi" alt="" />
               </div>
               <p>Te esperamos en el jardín de los buenos momentos.</p>
               <NavLink to="/Ver más">
@@ -57,7 +57,7 @@ const About = () => {
               <h3>Cafe 1760</h3>
               <br />
               <div className="image-gallery">
-                <img src="/public/image/375054522_18079465150391525_7615153488089975996_n.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/dpodrykqtbx8gtpx194a" alt="" />
               </div>
               <p>Fábrica de atardeceres. Somos el campo a 5 minutos de la ciudad. ¡Aquí solo importa el presente!</p>
               <button className="btn">Ver más</button>
@@ -71,7 +71,7 @@ const About = () => {
               <h3>Del Toro Café</h3>
               <br />
               <div className="image-gallery">
-                <img src="/public/image/2021-07-01.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/xd7gucqhskioxczthll2" alt="" />
               </div>
               <p>Drink Slow Café Hecho en Colombia, El sabor de la imaginación. ☕</p>
               <button className="btn">Ver más</button>
@@ -85,7 +85,7 @@ const About = () => {
               <h3>La Cabra Loca Café Cultural</h3>
               <br />
               <div className="image-gallery">
-                <img src="/public/image/cabraloca.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/sqasayjdhdl6mshwigli" alt="" />
               </div>
               <p>La Cabra Loca Café Cultural. Lugar exclusivo para disfrutar del buen café, comida variada, música.</p>
               <button className="btn">Ver más</button>
@@ -99,7 +99,7 @@ const About = () => {
               <h3>Azahar Coffee Shop</h3>
               <br />
               <div className="image-gallery">
-                <img src="/public/image/Azahar Coffee Shop.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/wjuvht6jk4qldbrdbfpu" alt="" />
               </div>
               <p>Encontramos los cafés y los caficultores más especiales de Colombia.</p>
               <button className="btn">Ver más</button>
@@ -113,7 +113,7 @@ const About = () => {
               <h3>Café Sorrento</h3>
               <br />
               <div className="image-gallery">
-                <img src="/public/image/cafe sorrento.jpg" alt="" />
+                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/wsftlfebd8kdclx6wsf4" alt="" />
               </div>
               <p>Café de origen, Chocolate y Macadamia 100% Orgánico ☕🍫🌿.</p>
               <button className="btn">Ver más</button>
@@ -162,7 +162,7 @@ const About = () => {
         <div className="swiper-wrapper">
           <div className="swiper-slide box">
            
-            <img src="image/pic-1.png" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/iltlvdwpu7rfjsxhs78c" alt="" />
             <div className="stars">
               
             </div>
@@ -173,7 +173,7 @@ const About = () => {
 
           <div className="swiper-slide box">
             
-            <img src="image/pic-2.png" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/ifdsxghyyadcpggqy1tm" alt="" />
             
             <p>sit amet consectetur adipisicing elit. Rerum optio quasi ut, illo ipsam assumenda.</p>
             <h3>John Doe</h3>
@@ -182,7 +182,7 @@ const About = () => {
 
           <div className="swiper-slide box">
            
-            <img src="image/pic-3.png" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/fnstz7ftrcldpbfeu57r" alt="" />
            
             <p>sit amet consectetur adipisicing elit. Eius asperiores aliquam hic quis! Eligendi, aliquam.</p>
             <h3>John Doe</h3>
@@ -191,7 +191,7 @@ const About = () => {
 
           <div className="swiper-slide box">
             
-            <img src="image/pic-4.png" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/yoc39uejzlse2uzfppxd" alt="" />
             <p>sit amet consectetur adipisicing elit. Eligendi modi perspiciatis distinctio velit aliquid a.</p>
             <h3>John Doe</h3>
             <span>Satisfied Client</span>

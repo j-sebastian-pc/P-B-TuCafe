@@ -6,7 +6,7 @@ function Homee() {
       <h1 className="heading">Acerca de nosotros <span>por qué elegirnos</span></h1>
       <div className="row">
         <div className="image">
-          <img src="image/persona.webp" alt="" />
+          <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/rg75lufjab2u9ncbbwja" alt="" />
         </div>
         <div className="content">
           <h3 className="title">¡Lo que nos hace especiales!</h3>
@@ -17,11 +17,11 @@ function Homee() {
           </p>
           <div className="icons-container">
             <div className="icons">
-              <img src="image/about-icon-1.png" alt="" />
+              <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/baswtf8ro47gkdzgyew7" alt="" />
               <h3>café de calidad</h3>
             </div>
             <div className="icons">
-              <img src="image/about-icon-2.png" alt="" />
+              <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/prrnvu9ctqjo7gckk73x" alt="" />
               <h3>Lugares de alta Calidad</h3>
             </div>
            
