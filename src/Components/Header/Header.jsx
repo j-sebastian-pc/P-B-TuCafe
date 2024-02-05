@@ -1,18 +1,20 @@
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faBars, faMugHot, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faMugHot, faSearch } from '@fortawesome/free-solid-svg-icons';
 import {  NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <header className="header">
-      <div id="menu-btn">
-        {/* <FontAwesomeIcon icon={faBars} /> */}
-      </div>
-      <a href="#" className="logo">Tu Café</a> 
+         <div>
+            <div id="menu-btn">
+                <FontAwesomeIcon icon={faBars} />
+            </div>
 
-      {/* <FontAwesomeIcon icon={faMugHot} /> ---- esrto va en ///  <a href="#" className="logo">Tu Café *aqui* </a>   */}
-
+            <a href="#" className="logo">
+                <FontAwesomeIcon icon={faMugHot} /> Tu Café
+            </a>
+        </div>
       <nav className="navbar">
         <NavLink to="/">Inicio</NavLink>
         <NavLink to="/lugares">Lugares</NavLink>
