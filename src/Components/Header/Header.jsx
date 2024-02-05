@@ -26,7 +26,7 @@ function Header() {
       <div className="search-bar">
         <input type="text" id="search-input" placeholder="Buscar Lugar..." />
         <button id="search-btn">
-          {/* <FontAwesomeIcon icon={faSearch} /> */}
+          <FontAwesomeIcon icon={faSearch} /> 
         </button>
       </div>
       
