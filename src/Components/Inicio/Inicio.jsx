@@ -1,6 +1,6 @@
 
 import { NavLink } from 'react-router-dom';
-
+import { cafes } from '../Conts/Conts';
 const About = () => {
   return (
     <>
@@ -28,102 +28,38 @@ const About = () => {
       </section>
 
       
-        {/* en esta parte esta el codigo de MENU */}
+        {/* en esta parte esta el codigo de cafes */}
       
       
         <section className="menu" id="menu">
         <h1 className="heading">Lugares más populares</h1>
 
         <div className="box-container">
-          {/* Primer casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>Garden Café & Chocolate</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/ozzvvfs6w6phedj0mhmi" alt="" />
-              </div>
-              <p>Te esperamos en el jardín de los buenos momentos.</p>
-              <NavLink to="/Ver más">
-                <button className="btn">Ver más</button>
-              </NavLink>
-              <span></span>
-            </div>
-          </a>
-
-          {/* Segunda casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>Cafe 1760</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/dpodrykqtbx8gtpx194a" alt="" />
-              </div>
-              <p>Fábrica de atardeceres. Somos el campo a 5 minutos de la ciudad. ¡Aquí solo importa el presente!</p>
-              <button className="btn">Ver más</button>
-              <span></span>
-            </div>
-          </a>
-
-          {/* Tercera casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>Del Toro Café</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/xd7gucqhskioxczthll2" alt="" />
-              </div>
-              <p>Drink Slow Café Hecho en Colombia, El sabor de la imaginación. ☕</p>
-              <button className="btn">Ver más</button>
-              <span></span>
-            </div>
-          </a>
-
-          {/* Cuarta casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>La Cabra Loca Café Cultural</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/sqasayjdhdl6mshwigli" alt="" />
-              </div>
-              <p>La Cabra Loca Café Cultural. Lugar exclusivo para disfrutar del buen café, comida variada, música.</p>
-              <button className="btn">Ver más</button>
-              <span></span>
-            </div>
-          </a>
-
-          {/* Quinta casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>Azahar Coffee Shop</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/wjuvht6jk4qldbrdbfpu" alt="" />
-              </div>
-              <p>Encontramos los cafés y los caficultores más especiales de Colombia.</p>
-              <button className="btn">Ver más</button>
-              <span></span>
-            </div>
-          </a>
-
-          {/* Sexta casilla del café */}
-          <a className="box">
-            <div className="content">
-              <h3>Café Sorrento</h3>
-              <br />
-              <div className="image-gallery">
-                <img src="https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/image/wsftlfebd8kdclx6wsf4" alt="" />
-              </div>
-              <p>Café de origen, Chocolate y Macadamia 100% Orgánico ☕🍫🌿.</p>
-              <button className="btn">Ver más</button>
-              <span></span>
-            </div>
-          </a>
-        </div>
+       
+       {
+         cafes.map((cafe,index) =>{
+           return(
+             
+         <div className="box" key = {index}> {/* segundo casilla del cafe */}
+           
+         <div className="content">
+           <h3>{cafe.titulo}</h3>
+           <br />
+           <div className="image-gallery">
+             <img src ={cafe.imagen} alt="" />
+           </div>
+           <p>{cafe.mensaje}</p>
+           <NavLink to={cafe.ruta} className="btn-link">
+         <button className="btn">Ver más</button>
+         </NavLink>
+         </div>
+         </div> 
+     )})
+   }
+    </div>
       </section>
 
-  {/* en esta parte esta el codigo de REVIEW " comentario de las personas "" */}
+  {/* comentario de las personas */}
 
       <section className="about" id="about">
       <h1 className="heading">Acerca de nosotros <span>por qué elegirnos</span></h1>
@@ -153,7 +89,7 @@ const About = () => {
       </div>
     </section>
 
-    {/* en esta parte esta el codigo de ABOUT " QUIENE SOMOS "" */}
+    {/* " QUIENE SOMOS "" */}
 
     <section className="review" id="review">
       <h1 className="heading">Opiniones <span>Lo que Dicen los Clientes</span></h1>
@@ -202,6 +138,7 @@ const About = () => {
     </section>
 
     {/* en esta parte esta el codigo de reserva */}
+    
     <section className="book" id="book">
       <h1 className="heading">Reserva <span>tu lugar Favorito</span></h1>
       <form action="">

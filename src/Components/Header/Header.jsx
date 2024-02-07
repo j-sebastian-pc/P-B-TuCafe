@@ -4,12 +4,18 @@ import { faBars, faMugHot, faSearch } from '@fortawesome/free-solid-svg-icons';
 import {  NavLink } from 'react-router-dom';
 
 function Header() {
+  function handleClick (){
+    const $bar = document.querySelector(".navbar")
+    $bar.classList.toggle("open")
+    $bar.classList.toggle("closed", $bar.classList.contains("open"))
+    
+  }
   return (
     <header className="header">
          <div>
-            <div id="menu-btn">
+            <button onClick={handleClick} id="menu-btn">
                 <FontAwesomeIcon icon={faBars} />
-            </div>
+            </button>
 
             <a href="#" className="logo">
                 <FontAwesomeIcon icon={faMugHot} /> Tu Café

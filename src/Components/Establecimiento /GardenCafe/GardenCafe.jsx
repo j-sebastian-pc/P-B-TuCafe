@@ -6,7 +6,7 @@ import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-sv
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-const A = () => {
+const GardenCafe = () => {
 
 
     return (
@@ -61,4 +61,4 @@ const A = () => {
     );
 }
 
-export default A;
+export default GardenCafe;
