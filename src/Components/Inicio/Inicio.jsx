@@ -141,7 +141,7 @@ const About = () => {
     
     <section className="book" id="book">
       <h1 className="heading">Reserva <span>tu lugar Favorito</span></h1>
-      <form action="">
+      <form action="" className='reserva-f'>
         <div className="search-bar1">
           <input type="text" id="search-input" placeholder="Buscar Lugar..." className="box" />
         </div>

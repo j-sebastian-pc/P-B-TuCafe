@@ -4,9 +4,9 @@ import './index.css';
 
 const SignUp = () => {
   return (
-    <div className="book1"> {/* Apply the 'book' class to style the entire form */}
+    <div className="book1"> 
       <h2 className="heading">Registrar</h2>
-      <form className='formL'>
+      <form className='formL reserva-f'>
         <label htmlFor="signupUsername" className="boxUS">
           Usuario:
           <input type="text" id="signupUsername" className="box1" />

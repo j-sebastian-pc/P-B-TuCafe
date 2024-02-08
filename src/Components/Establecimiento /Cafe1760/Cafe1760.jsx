@@ -13,7 +13,7 @@ const Cafe1760 = () => {
         <div className="productos">
           <div className='imgcafes'>
             <ul>
-                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/Cafe%201760/iyeuhhvcfh0q' alt="" /></li> 
+                <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/Cafe%201760/iyeuhhvcfh0qd8vhxg9g' alt="" /></li> 
                 <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/Cafe%201760/zmibfxjpmn7ltkbvkrv5' alt="" /></li>
                 <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/Cafe%201760/q6rmzifktvpr5q2iomnr' alt="" /></li>
                 <li><img src='https://res.cloudinary.com/dsa9qormp/image/upload/f_auto,q_auto/v1/Cafe%201760/wdm9pgymsfh9lcebeis4' alt="" /></li>

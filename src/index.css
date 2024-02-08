@@ -720,13 +720,20 @@ section {
 
 .imgcafes{
 	width: 50%;
-    height: auto;
-	margin:20px auto 0;
+    height: 60vh;
+	margin:20px auimgcato 0;
 	overflow: hidden;
     
-    
+   & ul {
+    height: 100%;
+    z-index: 90;
+   } 
     & img{
+        object-position: bottom;
+        object-fit: cover;
         border-radius: 15px;
+        height: 100%;
+        width: 100%;
         z-index: 10;
         &:hover {
             transform: scale(1.2);
@@ -738,15 +745,18 @@ section {
 
 .imgcafes ul {
     display: flex;
+    justify-content: start;
 	padding: 0;
 	width: 400%;
 	animation: slide 20s infinite alternate ease-in-out;
+    gap: 9px;
 }
 
 .imgcafes li {
-    width: 50%;
+    width: 100%;
 	list-style: none;
 }
+
 
 
 @keyframes slide {
@@ -966,3 +976,6 @@ p {
 
 
 
+.reserva-f{
+    backdrop-filter: brightness(1.3);
+}

@@ -7,7 +7,7 @@ const   Login = () => {
   return (
     <div className="book1">
       <h2 className="heading">Iniciar Sesión</h2>
-      <form className='formL'>
+      <form className='formL reserva-f'>
         <label htmlFor="loginUsername" className="boxUS">
           Usuario:
           <input type="text" id="loginUsername" className="box1" />
